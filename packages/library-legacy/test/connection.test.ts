@@ -3208,7 +3208,7 @@ describe('Connection', function () {
         params: [confirmedTransaction, {encoding: 'jsonParsed'}],
         value: getMockData({
           parsed: {},
-          program: 'spl-token',
+          program: 'safe-token',
           programId: 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
         }),
       });
@@ -4598,7 +4598,7 @@ describe('Connection', function () {
         expect(signatures[0]).to.eq(testSignature);
         const ix = message.instructions[0];
         if ('parsed' in ix) {
-          expect(ix.program).to.eq('spl-token');
+          expect(ix.program).to.eq('safe-token');
           expect(ix.programId).to.eql(TOKEN_PROGRAM_ID);
         } else {
           expect('parsed' in ix).to.be.true;
@@ -4634,7 +4634,7 @@ describe('Connection', function () {
           if (Buffer.isBuffer(data)) {
             expect(Buffer.isBuffer(data)).to.eq(false);
           } else {
-            expect(data.program).to.eq('spl-token');
+            expect(data.program).to.eq('safe-token');
             expect(data.parsed).to.be.ok;
           }
         }
@@ -4657,7 +4657,7 @@ describe('Connection', function () {
           if (Buffer.isBuffer(data)) {
             expect(Buffer.isBuffer(data)).to.eq(false);
           } else {
-            expect(data.program).to.eq('spl-token');
+            expect(data.program).to.eq('safe-token');
             expect(data.parsed).to.be.ok;
           }
         } else {
@@ -4670,7 +4670,7 @@ describe('Connection', function () {
           if (Buffer.isBuffer(data)) {
             expect(Buffer.isBuffer(data)).to.eq(false);
           } else {
-            expect(data.program).to.eq('spl-token');
+            expect(data.program).to.eq('safe-token');
             expect(data.parsed).to.be.ok;
           }
         } else {
@@ -4700,7 +4700,7 @@ describe('Connection', function () {
             expect(Buffer.isBuffer(data)).to.eq(false);
           } else {
             expect(data.parsed).to.be.ok;
-            expect(data.program).to.eq('spl-token');
+            expect(data.program).to.eq('safe-token');
           }
         });
       });
@@ -4721,7 +4721,7 @@ describe('Connection', function () {
             expect(Buffer.isBuffer(data)).to.eq(false);
           } else {
             expect(data.parsed).to.be.ok;
-            expect(data.program).to.eq('spl-token');
+            expect(data.program).to.eq('safe-token');
           }
         });
       });
