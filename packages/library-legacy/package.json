@@ -1,6 +1,6 @@
 {
   "name": "@safecoin/web3.js",
-  "version": "0.0.0-development",
+  "version": "1.73.1",
   "description": "Safecoin Javascript API",
   "keywords": [
     "api",
@@ -47,8 +47,7 @@
     "test:lint": "eslint src/ test/ --ext .js,.ts",
     "test:lint:fix": "eslint src/ test/ --fix --ext .js,.ts",
     "test:live": "TEST_LIVE=1 pnpm run test:unit:node",
-    "test:typecheck": "tsc --noEmit",
-    "test:unit:node": "cross-env NODE_ENV=test TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\", \"target\": \"es2019\" }' ts-mocha --require esm './test/**/*.test.ts'"
+    "test:typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",

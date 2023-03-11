@@ -1,5 +1,5 @@
 {
-    "name": "@safecoin/web3.js",
+    "name": "@safecoin/web3.js.experimental",
     "version": "1.73.0",
     "description": "Safecoin Javascript API",
     "exports": {
