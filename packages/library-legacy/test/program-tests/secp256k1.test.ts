@@ -10,7 +10,7 @@ import {
   Connection,
   Keypair,
   sendAndConfirmTransaction,
-  LAMPORTS_PER_SAFE,
+  LAMPORTS_PER_WICKANDBERGAMOT,
   Transaction,
   Secp256k1Program,
 } from '../../src';
