@@ -12,7 +12,7 @@
 [semantic-release-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
 
-# Wickandbergamot JavaScript SDK
+# Wick and Bergamot JavaScript SDK
 
 Use this to interact with accounts and programs on the Wickandbergamot network through the Wickandbergamot [JSON RPC API](https://docs.wickandbergamot.org/apps/jsonrpc-api).
 
