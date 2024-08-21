@@ -19,6 +19,6 @@ export * from './sysvar';
 export * from './utils';
 
 /**
- * There are 1-billion lamports in one SAFE
+ * There are 1-billion lamports in one WICKANDBERGAMOT
  */
-export const LAMPORTS_PER_SAFE = 1000000000;
+export const LAMPORTS_PER_WICKANDBERGAMOT = 1000000000;
