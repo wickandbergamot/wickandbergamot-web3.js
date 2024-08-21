@@ -1,1 +1,1 @@
-export * from '@safecoin/keys';
+export * from '@wickandbergamot/keys';
