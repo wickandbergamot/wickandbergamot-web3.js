@@ -1,11 +1,11 @@
 [package]
 name = "solana-sbf-rust-noop"
 version = "1.8.0"
-description = "Safecoin SBF noop program written in Rust"
-authors = ["Safecoin Labs Maintainers <safe@solanalabs.com>"]
+description = "Wickandbergamot SBF noop program written in Rust"
+authors = ["Wickandbergamot Labs Maintainers <safe@solanalabs.com>"]
 repository = "https://github.com/Fair-Exchange/solana"
 license = "Apache-2.0"
-homepage = "https://safecoin.org/"
+homepage = "https://wickandbergamot.org/"
 documentation = "https://docs.rs/solana-sbf-rust-noop"
 edition = "2021"
 
