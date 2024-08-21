@@ -85,7 +85,7 @@ importers:
 
   packages/library:
     specifiers:
-      '@safecoin/keys': workspace:*
+      '@wickandbergamot/keys': workspace:*
       '@solana/eslint-config-solana': ^0.0.4
       '@swc/core': ^1.3.18
       '@swc/jest': ^0.2.23
@@ -111,7 +111,7 @@ importers:
       turbo: ^1.6.3
       typescript: ^4.9
     dependencies:
-      '@safecoin/keys': link:../keys
+      '@wickandbergamot/keys': link:../keys
     devDependencies:
       '@solana/eslint-config-solana': 0.0.4_toqqo3emxmqf55lrsiaa6bueou
       '@swc/core': 1.3.39
@@ -156,9 +156,9 @@ importers:
       '@rollup/plugin-multi-entry': ^6.0.0
       '@rollup/plugin-node-resolve': ^15.0.1
       '@rollup/plugin-replace': ^5.0.2
-      '@safecoin/buffer-layout': ^4.0.4
-      '@safecoin/safe-token': ^0.3.5
-      '@safecoin/web3.js': ''
+      '@wickandbergamot/buffer-layout': ^4.0.4
+      '@wickandbergamot/wickandbergamot-token': ^0.3.5
+      '@wickandbergamot/web3.js': ''
       '@types/bn.js': ^5.1.0
       '@types/bs58': ^4.0.1
       '@types/chai': ^4.2.15
@@ -217,7 +217,7 @@ importers:
       '@noble/ed25519': 1.7.3
       '@noble/hashes': 1.2.0
       '@noble/secp256k1': 1.7.1
-      '@safecoin/buffer-layout': 4.0.5
+      '@wickandbergamot/buffer-layout': 4.0.5
       agentkeepalive: 4.3.0
       bigint-buffer: 1.1.5
       bn.js: 5.2.1
@@ -242,7 +242,7 @@ importers:
       '@rollup/plugin-multi-entry': 6.0.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
       '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
-      '@safecoin/safe-token': 0.3.5_5qeax3ck3ulhizeoaezdn3kfwy
+      '@wickandbergamot/wickandbergamot-token': 0.3.5_5qeax3ck3ulhizeoaezdn3kfwy
       '@types/bn.js': 5.1.1
       '@types/bs58': 4.0.1
       '@types/chai': 4.3.4
@@ -288,8 +288,8 @@ importers:
 
   packages/rpc-core:
     specifiers:
-      '@safecoin/keys': workspace:*
-      '@safecoin/rpc-transport': workspace:*
+      '@wickandbergamot/keys': workspace:*
+      '@wickandbergamot/rpc-transport': workspace:*
       '@solana/eslint-config-solana': ^0.0.4
       '@swc/core': ^1.3.18
       '@swc/jest': ^0.2.23
@@ -315,8 +315,8 @@ importers:
       turbo: ^1.6.3
       typescript: ^4.9
     dependencies:
-      '@safecoin/keys': link:../keys
-      '@safecoin/rpc-transport': link:../rpc-transport
+      '@wickandbergamot/keys': link:../keys
+      '@wickandbergamot/rpc-transport': link:../rpc-transport
     devDependencies:
       '@solana/eslint-config-solana': 0.0.4_toqqo3emxmqf55lrsiaa6bueou
       '@swc/core': 1.3.39
@@ -1940,7 +1940,7 @@ packages:
       inherits: 2.0.4
       isomorphic-ws: 4.0.1_ws@8.13.0
       readable-stream: 2.3.8
-      safe-buffer: 5.2.1
+      wickandbergamot-buffer: 5.2.1
       ws: 8.13.0
       xtend: 4.0.2
     transitivePeerDependencies:
@@ -2662,44 +2662,44 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@safecoin/buffer-layout-utils/0.2.3:
+  /@wickandbergamot/buffer-layout-utils/0.2.3:
     resolution: {integrity: sha512-OH7hAZEpXrsW4vy1kbQ6TS51s+6ACQhaZoxJlwm5iX/UvMTlcAz1teA7OO3eQDcWxTWEup1NB3gGO0VCXDI4Gw==}
     engines: {node: '>= 10'}
     dependencies:
-      '@safecoin/web3.js': 1.73.0
+      '@wickandbergamot/web3.js': 1.73.0
       '@solana/buffer-layout': 4.0.1
       bigint-buffer: 1.1.5
       bignumber.js: 9.1.1
     dev: true
 
-  /@safecoin/buffer-layout/4.0.5:
+  /@wickandbergamot/buffer-layout/4.0.5:
     resolution: {integrity: sha512-PLb9N7znMx1ssgGORR3vOJGtjAI69Z8dDU0wHlBYwPDaIWaHUYean4+FrrrUqtBhEJzPsXi6HmyitW3Xhof7CA==}
     engines: {node: '>=5.10'}
     dependencies:
       buffer: 6.0.3
 
-  /@safecoin/keys/0.0.0-development:
+  /@wickandbergamot/keys/0.0.0-development:
     resolution: {integrity: sha512-1DMovqLYYUxaDl3u/7T0kyG3tVAopekFf3a0mzXyW9ATXbCHYuQxS5f2o18/4YqHuzMj0DaRRlRvPIfpUfJ4KQ==}
     dependencies:
       bs58: 5.0.0
     dev: true
 
-  /@safecoin/safe-token/0.3.5_5qeax3ck3ulhizeoaezdn3kfwy:
+  /@wickandbergamot/wickandbergamot-token/0.3.5_5qeax3ck3ulhizeoaezdn3kfwy:
     resolution: {integrity: sha512-/HEuatGTzJN754S5p/CKX5iMaVkUpATisnkr6Rdc0k5aIYOObzGbhZ8gsf/HRKbpS+11owIEHyZCdnIZ8jWvvQ==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@safecoin/web3.js': ^1.49.9
+      '@wickandbergamot/web3.js': ^1.49.9
     dependencies:
-      '@safecoin/buffer-layout': 4.0.5
-      '@safecoin/buffer-layout-utils': 0.2.3
-      '@safecoin/web3.js': link:packages/library-legacy
+      '@wickandbergamot/buffer-layout': 4.0.5
+      '@wickandbergamot/buffer-layout-utils': 0.2.3
+      '@wickandbergamot/web3.js': link:packages/library-legacy
       buffer: 6.0.3
     dev: true
 
-  /@safecoin/web3.js/1.73.0:
+  /@wickandbergamot/web3.js/1.73.0:
     resolution: {integrity: sha512-KK9q8/puYs4561CMelu001QSPMUn26jq6nFsKs3/AepDU3CR95wKTVBkTKkKv0PQwlM3p0qe+lnbX+vRPUmG/Q==}
     dependencies:
-      '@safecoin/keys': 0.0.0-development
+      '@wickandbergamot/keys': 0.0.0-development
     dev: true
 
   /@semantic-release/commit-analyzer/9.0.2_semantic-release@19.0.5:
@@ -3766,7 +3766,7 @@ packages:
   /base-x/3.0.9:
     resolution: {integrity: sha512-H7JU6iBHTal1gp56aKoaa//YUxEaAOUiydvrV/pILqIHXTtqxSkATOnDA2u+jZ/61sD+L/412+7kzXRtWukhpQ==}
     dependencies:
-      safe-buffer: 5.2.1
+      wickandbergamot-buffer: 5.2.1
 
   /base-x/4.0.0:
     resolution: {integrity: sha512-FuwxlW4H5kh37X/oW59pwTzzTKRzfrrQwhmyspRM7swOEZcHtDZSCt45U6oKgtuFE+WYPblePMVIPR4RZrh/hw==}
@@ -4222,7 +4222,7 @@ packages:
     resolution: {integrity: sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==}
     engines: {node: '>= 0.6'}
     dependencies:
-      safe-buffer: 5.2.1
+      wickandbergamot-buffer: 5.2.1
     dev: true
 
   /content-type/1.0.5:
@@ -4255,7 +4255,7 @@ packages:
       conventional-commits-filter: 2.0.7
       dateformat: 3.0.3
       handlebars: 4.7.7
-      json-stringify-safe: 5.0.1
+      json-stringify-wickandbergamot: 5.0.1
       lodash: 4.17.21
       meow: 8.1.2
       semver: 6.3.0
@@ -4788,7 +4788,7 @@ packages:
       object-keys: 1.1.1
       object.assign: 4.1.4
       regexp.prototype.flags: 1.4.3
-      safe-regex-test: 1.0.0
+      wickandbergamot-regex-test: 1.0.0
       string.prototype.trimend: 1.0.6
       string.prototype.trimstart: 1.0.6
       typed-array-length: 1.0.4
@@ -5501,7 +5501,7 @@ packages:
       proxy-addr: 2.0.7
       qs: 6.11.0
       range-parser: 1.2.1
-      safe-buffer: 5.2.1
+      wickandbergamot-buffer: 5.2.1
       send: 0.18.0
       serve-static: 1.15.0
       setprototypeof: 1.2.0
@@ -6165,13 +6165,13 @@ packages:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      safer-buffer: 2.1.2
+      wickandbergamotr-buffer: 2.1.2
 
   /iconv-lite/0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      safer-buffer: 2.1.2
+      wickandbergamotr-buffer: 2.1.2
 
   /ieee754/1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
@@ -6549,7 +6549,7 @@ packages:
       es6-promisify: 5.0.0
       eyes: 0.1.8
       isomorphic-ws: 4.0.1_ws@7.5.9
-      json-stringify-safe: 5.0.1
+      json-stringify-wickandbergamot: 5.0.1
       lodash: 4.17.21
       uuid: 8.3.2
       ws: 7.5.9
@@ -7580,7 +7580,7 @@ packages:
   /json-stable-stringify-without-jsonify/1.0.1:
     resolution: {integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==}
 
-  /json-stringify-safe/5.0.1:
+  /json-stringify-wickandbergamot/5.0.1:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
 
   /json5/1.0.2:
@@ -8823,7 +8823,7 @@ packages:
   /randombytes/2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
     dependencies:
-      safe-buffer: 5.2.1
+      wickandbergamot-buffer: 5.2.1
     dev: true
 
   /range-parser/1.2.1:
@@ -8909,7 +8909,7 @@ packages:
       inherits: 2.0.4
       isarray: 1.0.0
       process-nextick-args: 2.0.1
-      safe-buffer: 5.1.2
+      wickandbergamot-buffer: 5.1.2
       string_decoder: 1.1.1
       util-deprecate: 1.0.2
     dev: true
@@ -9185,14 +9185,14 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /safe-buffer/5.1.2:
+  /wickandbergamot-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: true
 
-  /safe-buffer/5.2.1:
+  /wickandbergamot-buffer/5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
 
-  /safe-regex-test/1.0.0:
+  /wickandbergamot-regex-test/1.0.0:
     resolution: {integrity: sha512-JBUUzyOgEwXQY1NuPtvcj/qcBDbDmEvWufhlnXZIm75DEHp+afM1r1ujJpJsV/gSM4t59tpDyPi1sd6ZaPFfsA==}
     dependencies:
       call-bind: 1.0.2
@@ -9200,7 +9200,7 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /safer-buffer/2.1.2:
+  /wickandbergamotr-buffer/2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
   /saxes/5.0.1:
@@ -9625,13 +9625,13 @@ packages:
   /string_decoder/1.1.1:
     resolution: {integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==}
     dependencies:
-      safe-buffer: 5.1.2
+      wickandbergamot-buffer: 5.1.2
     dev: true
 
   /string_decoder/1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
     dependencies:
-      safe-buffer: 5.2.1
+      wickandbergamot-buffer: 5.2.1
     dev: true
 
   /strip-ansi/6.0.1:
