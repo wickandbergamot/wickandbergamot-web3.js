@@ -14,7 +14,7 @@
 
 # Wick and Bergamot JavaScript SDK
 
-Use this to interact with accounts and programs on the Wickandbergamot network through the Wickandbergamot [JSON RPC API](https://docs.wickandbergamot.org/apps/jsonrpc-api).
+Use this to interact with accounts and programs on the Wick and Bergamot network through the Wickandbergamot [JSON RPC API](https://docs.wickandbergamot.org/apps/jsonrpc-api).
 
 ## Installation
 
@@ -36,7 +36,7 @@ $ npm install --save @wickandbergamot/web3.js
 
 ## Documentation and examples
 
--   [The Wickandbergamot Cookbook](https://solanacookbook.com/) has extensive task-based documentation using this library.
+-   [The Wick and Bergamot Cookbook](https://solanacookbook.com/) has extensive task-based documentation using this library.
 -   For more detail on individual functions, see the [latest API Documentation](https://wickandbergamot.github.io/wickandbergamot-web3.js)
 
 ## Getting help
@@ -100,7 +100,7 @@ $ npm run test:live-with-test-validator
 
 Cache build artifacts remotely so that you, others, and the CI server can take advantage of each others' build efforts.
 
-1. Log the Turborepo CLI into the Wickandbergamot Vercel account
+1. Log the Turborepo CLI into the Wick and Bergamot Vercel account
     ```shell
     pnpm turbo login
     ```
@@ -125,7 +125,7 @@ investment.
 Any content produced by SF or developer resources that SF provides, are
 for educational and inspiration purposes only. SF does not encourage,
 induce or sanction the deployment, integration or use of any such
-applications (including the code comprising the Wickandbergamot blockchain
+applications (including the code comprising the Wick and Bergamot blockchain
 protocol) in violation of applicable laws or regulations and hereby
 prohibits any such deployment, integration or use. This includes use of
 any such applications by the reader (a) in violation of export control
@@ -142,14 +142,14 @@ prohibit U.S. persons (and other persons that are subject to such laws)
 from transacting with persons in certain countries and territories or
 that are on the SDN list. As a project based primarily on open-source
 software, it is possible that such sanctioned persons may nevertheless
-bypass prohibitions, obtain the code comprising the Wickandbergamot blockchain
+bypass prohibitions, obtain the code comprising the Wick and Bergamot blockchain
 protocol (or other project code or applications) and deploy, integrate,
 or otherwise use it. Accordingly, there is a risk to individuals that
-other persons using the Wickandbergamot blockchain protocol may be sanctioned
+other persons using the Wick and Bergamot blockchain protocol may be sanctioned
 persons and that transactions with such persons would be a violation of
 U.S. export controls and sanctions law. This risk applies to
 individuals, organizations, and other ecosystem participants that
-deploy, integrate, or use the Wickandbergamot blockchain protocol code directly
-(e.g., as a node operator), and individuals that transact on the Wickandbergamot
+deploy, integrate, or use the Wick and Bergamot blockchain protocol code directly
+(e.g., as a node operator), and individuals that transact on the Wick and Bergamot
 blockchain through light clients, third party interfaces, and/or wallet
 software.
