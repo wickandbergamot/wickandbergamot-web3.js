@@ -1,7 +1,7 @@
 {
-  "repositoryUrl": "git@github.com:Fair-Exchange/safecoin-web3.js.git",
+  "repositoryUrl": "git@github.com:wickandbergamot/wickandbergamot-web3.js.git",
   "preset": "conventionalcommits",
   "presetConfig": {
-    "issueUrlFormat": "{{host}}/{{owner}}/safecoin-web3.js/issues/{{id}}"
+    "issueUrlFormat": "{{host}}/{{owner}}/wickandbergamot-web3.js/issues/{{id}}"
   }
 }
