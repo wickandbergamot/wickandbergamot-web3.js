@@ -188,7 +188,7 @@ export class Loader {
       );
 
       // Delay between sends in an attempt to reduce rate limit errors
-      if (connection._rpcEndpoint.includes('safecoin.org')) {
+      if (connection._rpcEndpoint.includes('wickandbergamot.org')) {
         const REQUESTS_PER_SECOND = 4;
         await sleep(1000 / REQUESTS_PER_SECOND);
       }
