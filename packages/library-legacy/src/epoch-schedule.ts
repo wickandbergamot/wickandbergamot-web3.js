@@ -25,7 +25,7 @@ function nextPowerOfTwo(n: number) {
 
 /**
  * Epoch schedule
- * (see https://docs.safecoin.org/terminology#epoch)
+ * (see https://docs.wickandbergamot.org/terminology#epoch)
  * Can be retrieved with the {@link Connection.getEpochSchedule} method
  */
 export class EpochSchedule {
