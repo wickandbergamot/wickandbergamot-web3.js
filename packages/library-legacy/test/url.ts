@@ -25,5 +25,5 @@ export const Node14Controller = function () {
   return new AbortControllerPolyfill();
 };
 
-//export const url = 'https://api.devnet.safecoin.org/';
-//export const url = 'http://api.devnet.safecoin.org/';
+//export const url = 'https://api.devnet.wickandbergamot.org/';
+//export const url = 'http://api.devnet.wickandbergamot.org/';
