@@ -41,7 +41,7 @@ $ npm install --save @wickandbergamot/web3.js
 
 ## Getting help
 
-Have a question or a problem? Check the [Wickandbergamot Stack Exchange](https://solana.stackexchange.com) to see if anyone else is having the same one. If not, [post a new question](https://solana.stackexchange.com/questions/ask).
+Have a question or a problem? Check the [Wick and Bergamot Exchange](https://solana.stackexchange.com) to see if anyone else is having the same one. If not, [post a new question](https://solana.stackexchange.com/questions/ask).
 
 Include:
 
